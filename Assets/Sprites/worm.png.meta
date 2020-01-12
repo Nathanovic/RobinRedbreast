@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 3892fffaed635bf4281100b45e1fa803
+guid: 72b064d68c9964d4b94fc708ba9337f6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: robin_0
+      213: -1379284931105554088
+    second: worm_0
   - first:
-      213: 1919540803858749706
-    second: robin_1
+      213: -897107974938402584
+    second: worm_1
   - first:
-      213: -4967650367231717965
-    second: robin_2
+      213: 3333537666500559670
+    second: worm_2
   - first:
-      213: -1094170764714013070
-    second: robin_3
+      213: -7591865148917879237
+    second: worm_3
+  - first:
+      213: -1293923926150288066
+    second: worm_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -81,7 +84,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -93,102 +96,111 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: robin_0
+      name: worm_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3d6256f983f8084da1031a8c1139281
-      internalID: 21300000
+      spriteID: 9f758119a48404d439aa1d7766a765dd
+      internalID: -1379284931105554088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robin_1
+      name: worm_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac3f75d009b17e4fba5ff629757e55b
+      internalID: -897107974938402584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm_2
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71957fbdf9e6d5a479a7b352d445f288
-      internalID: 1919540803858749706
+      spriteID: 07a5695bc7968b34a8b0840efc23059f
+      internalID: 3333537666500559670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robin_2
+      name: worm_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac30db9eb7b1ac84288b13096bdcab24
+      internalID: -7591865148917879237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm_4
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcd8f1cf2a9a35e4196279b470fa8334
-      internalID: -4967650367231717965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robin_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a6bada2bac43b04bbcadadd9ae146bd
-      internalID: -1094170764714013070
+      spriteID: ee8b8307c853c2f4c83700054e42cc9c
+      internalID: -1293923926150288066
       vertices: []
       indices: 
       edges: []
@@ -196,7 +208,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6678e847ce6ecc94982fde9c6491141e
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
